@@ -1,0 +1,36 @@
+#about-me-container {
+  display: flex;
+  justify-content: center;
+}
+
+#projects-title {
+  display: flex;
+  justify-content: center;
+}
+
+#projects-links-container {
+  display: flex;
+  justify-content: center;
+}
+
+#footer-container {
+  display: flex;
+  justify-content: center;
+}
+
+#projects-container {
+  background-color: #00afb9;
+  height: 500px;
+}
+
+#projects-title {
+  padding: 100px;
+}
+
+.projects {
+  padding: 20px;
+}
+
+#footer-container {
+  background-color: #0081a7;
+}
