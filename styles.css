@@ -1,36 +1,55 @@
+body {
+  font-family: "Poppins", sans-serif;
+  width: 100%;
+  color: white;
+  background-color: black;
+}
+
 #about-me-container {
   display: flex;
-  justify-content: center;
+  width: 100%;
 }
 
-#projects-title {
+#about-me-photo {
   display: flex;
-  justify-content: center;
+  align-content: flex-start;
+  width: 45%;
+  margin-left: 0px;
 }
 
-#projects-links-container {
-  display: flex;
-  justify-content: center;
-}
-
-#footer-container {
-  display: flex;
-  justify-content: center;
+#about-me-description {
+  padding-top: 70px;
+  padding-left: 20px;
+  width: 500px;
 }
 
 #projects-container {
   background-color: #00afb9;
-  height: 500px;
 }
 
 #projects-title {
+  display: flex;
+  justify-content: center;
   padding: 100px;
 }
 
+#projects-links-container {
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: center;
+}
+
 .projects {
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 #footer-container {
+  display: flex;
+  justify-content: center;
+  position: absolute;
   background-color: #0081a7;
+  height: 12.5%;
+  width: 100%;
+  padding-top: 20px;
 }
