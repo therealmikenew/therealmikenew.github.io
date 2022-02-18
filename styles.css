@@ -40,8 +40,14 @@ body {
 }
 
 .projects {
+  display: grid;
+  place-items: center;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+.project-image {
+  width: 40vh;
 }
 
 #footer-container {
