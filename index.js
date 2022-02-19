@@ -1,3 +1,5 @@
+const aboutTitle = document.querySelector("#about-title");
+const aboutPara = document.querySelector("#about-paragraphs");
 const firstProj = document.querySelector("#first-project");
 const firstProjText = document.querySelector("#first-project-text");
 const secondProj = document.querySelector("#second-project");
@@ -6,6 +8,14 @@ const thirdProj = document.querySelector("#third-project");
 const thirdProjText = document.querySelector("#third-project-text");
 const fourthProj = document.querySelector("#fourth-project");
 const fourthProjText = document.querySelector("#fourth-project-text");
+
+aboutTitle.addEventListener("click", () => {
+  if (aboutPara.style.display === "none") {
+    aboutPara.style.display = "block";
+  } else {
+    aboutPara.style.display = "none";
+  }
+});
 
 firstProj.addEventListener("click", () => {
   if (firstProjText.style.display === "none") {

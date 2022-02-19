@@ -20,29 +20,37 @@ a {
   display: flex;
   width: 100%;
   height: auto;
+  border: 1px solid rgb(255, 213, 0);
 }
 
 #header-photo {
   display: flex;
   align-content: center;
   filter: grayscale(100%);
-  padding: 10px 10px 10px 10px;
+  padding-left: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+  border: 1px solid red;
 }
 
 #photo {
   width: 80%;
-}
-
-@media (max-width: 700px) {
-  #photo {
-    width: 60vh;
-  }
+  border: 1px solid rgb(0, 255, 38);
 }
 
 #header-description {
   padding-top: 70px;
   padding-left: 20px;
+  padding-right: 20px;
   width: 500px;
+  border: 1px solid red;
+}
+
+@media (max-width: 700px) {
+  #photo {
+    width: 50vh;
+  }
 }
 
 #about-container {
@@ -79,7 +87,14 @@ a {
 }
 
 .project-image {
-  width: 40vh;
+  width: 60vh;
+}
+
+#first-project-text,
+#second-project-text,
+#third-project-text,
+#fourth-project-text {
+  width: 90vh;
 }
 
 #footer-container {
