@@ -12,7 +12,7 @@ a {
 }
 
 .icon {
-  height: 50px;
+  height: 30px;
 }
 
 #header-container {
@@ -28,12 +28,10 @@ a {
   filter: grayscale(100%);
 }
 
-@media (max-width: 700px) {
+@media (max-width: 800px) {
   #header-photo {
-    display: flex;
-    align-items: center;
-
-    height: 200px;
+    align-items: flex-end;
+    height: 25vh;
   }
 }
 
@@ -47,6 +45,8 @@ a {
   background-color: #f07167;
   height: 100%;
   margin-bottom: 0px;
+  padding-left: 20px;
+  padding-bottom: 20px;
 }
 
 #projects-container {
