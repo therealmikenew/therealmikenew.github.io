@@ -12,7 +12,8 @@ a {
 }
 
 .icon {
-  height: 30px;
+  height: 40px;
+  padding-top: 10px;
 }
 
 #header-container {
@@ -32,10 +33,9 @@ a {
   width: 80%;
 }
 
-@media (max-width: 750px) {
+@media (max-width: 800px) {
   #photo {
-    width: 100%;
-    height: auto;
+    width: 60vh;
   }
 }
 
