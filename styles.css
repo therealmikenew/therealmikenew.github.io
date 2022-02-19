@@ -18,20 +18,24 @@ a {
 #header-container {
   display: flex;
   width: 100%;
+  height: auto;
 }
 
 #header-photo {
   display: flex;
-  align-content: flex-start;
-  height: 50vh;
-  margin-left: 0px;
+  align-content: center;
   filter: grayscale(100%);
+  padding: 10px 10px 10px 10px;
 }
 
-@media (max-width: 800px) {
-  #header-photo {
-    align-items: flex-end;
-    height: 25vh;
+#photo {
+  width: 80%;
+}
+
+@media (max-width: 750px) {
+  #photo {
+    width: 100%;
+    height: auto;
   }
 }
 
