@@ -35,7 +35,8 @@ a {
 }
 
 #photo {
-  width: 80%;
+  width: 50%;
+  height: auto;
   border: 1px solid rgb(0, 255, 38);
 }
 
@@ -49,7 +50,7 @@ a {
 
 @media (max-width: 700px) {
   #photo {
-    width: 50vh;
+    height: 10vh;
   }
 }
 
