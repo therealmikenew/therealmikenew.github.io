@@ -44,12 +44,6 @@ a {
   width: 500px;
 }
 
-@media (max-width: 700px) {
-  #photo {
-    height: 10vh;
-  }
-}
-
 #about-container {
   background-color: #f07167;
   height: 100%;
@@ -116,4 +110,17 @@ a {
   height: 12.5%;
   width: 100%;
   padding-top: 20px;
+}
+
+@media screen and (max-width: 480px) {
+  .project-image {
+    width: 30vh;
+  }
+
+  #first-project-text,
+  #second-project-text,
+  #third-project-text,
+  #fourth-project-text {
+    width: 45vh;
+  }
 }
