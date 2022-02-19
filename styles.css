@@ -20,7 +20,6 @@ a {
   display: flex;
   width: 100%;
   height: auto;
-  border: 1px solid rgb(255, 213, 0);
 }
 
 #header-photo {
@@ -31,13 +30,11 @@ a {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-right: 20px;
-  border: 1px solid red;
 }
 
 #photo {
   width: 50%;
   height: auto;
-  border: 1px solid rgb(0, 255, 38);
 }
 
 #header-description {
@@ -45,7 +42,6 @@ a {
   padding-left: 20px;
   padding-right: 20px;
   width: 500px;
-  border: 1px solid red;
 }
 
 @media (max-width: 700px) {
@@ -69,9 +65,11 @@ a {
 }
 
 #projects-title {
-  display: flex;
-  justify-content: center;
-  padding: 100px;
+  height: 100%;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 #projects-links-container {
@@ -98,10 +96,22 @@ a {
   width: 90vh;
 }
 
+.tech-icons-container {
+  display: grid;
+  align-items: center;
+}
+
+.tech-icons-container-1,
+.tech-icons-container-2 {
+  display: flex;
+  justify-content: center;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
 #footer-container {
   display: flex;
   justify-content: center;
-  /* position: absolute; */
   background-color: #0081a7;
   height: 12.5%;
   width: 100%;

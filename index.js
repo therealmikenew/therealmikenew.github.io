@@ -9,6 +9,17 @@ const thirdProjText = document.querySelector("#third-project-text");
 const fourthProj = document.querySelector("#fourth-project");
 const fourthProjText = document.querySelector("#fourth-project-text");
 
+const projTitle = document.querySelector("#projects-title");
+const allProjs = document.querySelector("#projects-list");
+
+projTitle.addEventListener("click", () => {
+  if (allProjs.style.display === "none") {
+    allProjs.style.display = "block";
+  } else {
+    allProjs.style.display = "none";
+  }
+});
+
 aboutTitle.addEventListener("click", () => {
   if (aboutPara.style.display === "none") {
     aboutPara.style.display = "block";
