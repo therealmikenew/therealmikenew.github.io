@@ -48,8 +48,9 @@ a {
 #about-container {
   background-color: #f07167;
   height: 100%;
-  margin-bottom: 0px;
-  padding-left: 20px;
+  padding-right: 30px;
+  padding-left: 30px;
+  padding-top: 20px;
   padding-bottom: 20px;
 }
 
