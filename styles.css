@@ -80,7 +80,7 @@ a {
 }
 
 .project-image {
-  width: 60vh;
+  width: 75vh;
 }
 
 #first-project-text,
@@ -105,6 +105,7 @@ a {
 
 #footer-container {
   display: flex;
+  position: absolute;
   justify-content: center;
   background-color: #0081a7;
   height: 12.5%;
