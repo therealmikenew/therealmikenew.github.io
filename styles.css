@@ -134,13 +134,12 @@ body {
   #second-project-text,
   #third-project-text,
   #fourth-project-text {
-    width: 70vh;
+    width: 40vh;
   }
   .tech-icons-container-1,
   .tech-icons-container-2 {
     display: flex;
     flex-wrap: wrap;
-
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 20px;
