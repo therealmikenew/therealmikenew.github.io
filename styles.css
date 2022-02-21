@@ -34,7 +34,7 @@ body {
 #photo {
   width: 20%;
   height: auto;
-  border: 3px solid white;
+  border: 5px solid white;
 }
 
 #about-container {
@@ -74,6 +74,7 @@ body {
 
 .project-image {
   width: 75vh;
+  border: 3px solid white;
   transition: width 0.5s;
 }
 
@@ -125,6 +126,10 @@ body {
     width: 30vh;
   }
 
+  .project-image:hover {
+    width: 35vh;
+  }
+
   #first-project-text,
   #second-project-text,
   #third-project-text,
@@ -135,9 +140,9 @@ body {
   .tech-icons-container-2 {
     display: flex;
     flex-wrap: wrap;
-    border: 1px solid red;
-    /* padding-left: 10px;
-    padding-right: 10px; */
+
+    padding-left: 10px;
+    padding-right: 10px;
     padding-bottom: 20px;
     margin-bottom: 20px;
     width: 300px;
