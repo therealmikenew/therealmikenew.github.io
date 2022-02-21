@@ -121,6 +121,11 @@ body {
   padding-bottom: 20px;
 }
 
+#footer-text {
+  padding-top: 10px;
+  font-size: 10px;
+}
+
 @media screen and (max-width: 480px) {
   .project-image {
     width: 30vh;
@@ -134,7 +139,7 @@ body {
   #second-project-text,
   #third-project-text,
   #fourth-project-text {
-    width: 100px;
+    width: 200px;
   }
   .tech-icons-container-1,
   .tech-icons-container-2 {
@@ -144,6 +149,6 @@ body {
     padding-right: 10px;
     padding-bottom: 20px;
     margin-bottom: 20px;
-    width: 300px;
+    width: 200px;
   }
 }
