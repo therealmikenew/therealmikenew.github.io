@@ -12,7 +12,7 @@ body {
   padding-top: 10px;
   padding-left: 10px;
   padding-right: 10px;
-  transition: width 3s;
+  transition: height 1s;
 }
 
 .icon-link:hover {
@@ -50,6 +50,16 @@ body {
   padding-left: 50px;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+#about-title,
+#projects-title {
+  transition: font-size 1s;
+}
+
+#about-title:hover,
+#projects-title:hover {
+  font-size: 40px;
 }
 
 #projects-container {
@@ -131,7 +141,7 @@ body {
   font-size: 10px;
 }
 
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 600px) {
   .project-image {
     width: 30vh;
   }
