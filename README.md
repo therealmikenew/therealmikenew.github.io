@@ -4,7 +4,8 @@
 
 [![therealmikenew's GitHub stats](https://github-readme-stats.vercel.app/api?username=therealmikenew)](https://github.com/therealmikenew/github-readme-stats)
 
+### Acknowledgements
 
-### Credit ###
+- [GitHub Readme Stats](https://github.com/anuraghazra/github-readme-stats)
 
-[GitHub Readme Stats](https://github.com/anuraghazra/github-readme-stats)
+- Color scheme from [Coolors](https://coolors.co/palettes/trending)
