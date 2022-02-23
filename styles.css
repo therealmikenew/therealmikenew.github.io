@@ -66,7 +66,7 @@ body {
   border: 1px solid white;
   display: grid;
   justify-items: start;
-  width: 100vh;
+  width: 40%;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -155,18 +155,22 @@ body {
   font-size: 10px;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 700px) {
   #photo {
     width: 50%;
     height: auto;
   }
 
   .project-title-header {
-    font-size: 35px;
+    font-size: 20px;
   }
 
-  #about-paragraphs-container {
+  /* #about-paragraphs-container {
     width: 60vh;
+  } */
+
+  #about-paragraphs-container {
+    width: 60%;
   }
   .project-image {
     width: 30vh;
@@ -180,7 +184,8 @@ body {
   #second-project-text,
   #third-project-text,
   #fourth-project-text {
-    width: 300px;
+    width: 70vh;
+    font-size: 20px;
   }
   .tech-icons-container-1,
   .tech-icons-container-2 {
