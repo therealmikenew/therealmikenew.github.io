@@ -62,15 +62,6 @@ body {
   font-size: 40px;
 }
 
-#about-paragraphs-container {
-  border: 1px solid white;
-  display: grid;
-  justify-items: start;
-  width: 40%;
-  padding-left: 10px;
-  padding-right: 10px;
-}
-
 #projects-container {
   background-color: #52489c;
   margin-top: 0px;
@@ -82,10 +73,6 @@ body {
   padding-left: 50px;
   padding-top: 20px;
   padding-bottom: 20px;
-}
-
-.project-title-header {
-  font-size: 40px;
 }
 
 #projects-links-container {
@@ -116,7 +103,6 @@ body {
 #third-project-text,
 #fourth-project-text {
   width: 90vh;
-  font-size: 20px;
 }
 
 .proj-links {
@@ -155,23 +141,7 @@ body {
   font-size: 10px;
 }
 
-@media screen and (max-width: 700px) {
-  #photo {
-    width: 50%;
-    height: auto;
-  }
-
-  .project-title-header {
-    font-size: 20px;
-  }
-
-  /* #about-paragraphs-container {
-    width: 60vh;
-  } */
-
-  #about-paragraphs-container {
-    width: 60%;
-  }
+@media screen and (max-width: 600px) {
   .project-image {
     width: 30vh;
   }
@@ -184,8 +154,7 @@ body {
   #second-project-text,
   #third-project-text,
   #fourth-project-text {
-    width: 70vh;
-    font-size: 20px;
+    width: 250px;
   }
   .tech-icons-container-1,
   .tech-icons-container-2 {
@@ -195,6 +164,6 @@ body {
     padding-right: 10px;
     padding-bottom: 20px;
     margin-bottom: 20px;
-    width: 300px;
+    width: 250px;
   }
 }
