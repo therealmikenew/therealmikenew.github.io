@@ -12,6 +12,19 @@ const fourthProjText = document.querySelector("#fourth-project-text");
 const projTitle = document.querySelector("#projects-title");
 const allProjs = document.querySelector("#projects-list");
 
+const skillsTitle = document.querySelector("#skills-title");
+const allSkills = document.querySelector("#skills-paragraphs");
+
+console.log(skillsTitle, allSkills);
+
+skillsTitle.addEventListener("click", () => {
+  if (allSkills.style.display === "none") {
+    allSkills.style.display = "block";
+  } else {
+    allSkills.style.display = "none";
+  }
+});
+
 projTitle.addEventListener("click", () => {
   if (allProjs.style.display === "none") {
     allProjs.style.display = "block";

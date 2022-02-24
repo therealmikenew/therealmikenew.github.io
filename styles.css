@@ -38,7 +38,7 @@ body {
 }
 
 #photo {
-  width: 30%;
+  width: 90%;
   height: auto;
   border: 5px solid white;
   border-radius: 25px;
@@ -55,15 +55,33 @@ body {
 }
 
 #about-title,
-#projects-title {
-  font-size: 40px;
+#projects-title,
+#skills-title {
+  font-size: 50px;
 
   transition: font-size 1s;
 }
 
 #about-title:hover,
-#projects-title:hover {
-  font-size: 50px;
+#projects-title:hover,
+#skills-title:hover {
+  font-size: 60px;
+}
+
+#personal-site {
+  text-decoration: none;
+  color: #52489c;
+}
+
+.container {
+  display: flex;
+
+  /* border: 1px solid green; */
+}
+
+.container-1,
+.container-2 {
+  /* border: 1px solid red; */
 }
 
 #about-paragraphs-container {
@@ -71,20 +89,56 @@ body {
   font-size: 20px;
   border: 1px solid white;
   border-radius: 25px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  margin-left: 20px;
+  width: 75%;
+}
+
+#about-container {
+  background-color: #59c3c3;
+  height: 100%;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#skills-container {
+  background-color: #84a98c;
+  height: 100%;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#skills-paragraph {
+  font-family: "Lato", sans-serif;
+  font-size: 25px;
+  border: 1px solid white;
+  border-radius: 25px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: 20px;
   width: 75%;
 }
 
 #projects-container {
   background-color: #52489c;
-  margin-top: 0px;
+  height: 100%;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 #projects-title {
   height: 100%;
   padding-right: 50px;
-  padding-left: 50px;
+  /* padding-left: 50px; */
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -171,11 +225,61 @@ body {
   }
 
   #photo {
-    width: 40%;
+    width: 50%;
+  }
+
+  #about-title,
+  #projects-title,
+  #skills-title {
+    font-size: 40px;
+
+    transition: font-size 1s;
+  }
+
+  #about-title:hover,
+  #projects-title:hover,
+  #skills-title:hover {
+    font-size: 30px;
+  }
+
+  #skills-paragraph {
+    font-family: "Lato", sans-serif;
+    font-size: 20px;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-left: 0px;
+    width: 90%;
+  }
+
+  .container {
+    display: grid;
+
+    /* border: 1px solid green; */
+  }
+
+  .container-1,
+  .container-2 {
+    /* border: 1px solid red; */
+    width: 90%;
+  }
+
+  #about-paragraphs-container {
+    font-family: "Lato", sans-serif;
+    font-size: 18px;
+    border: 1px solid white;
+    border-radius: 25px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-left: 0px;
+    width: 75%;
   }
 
   .projects-headers {
-    font-size: 25px;
+    font-size: 22px;
   }
 
   .project-image {
