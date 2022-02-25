@@ -15,8 +15,6 @@ const allProjs = document.querySelector("#projects-list");
 const skillsTitle = document.querySelector("#skills-title");
 const allSkills = document.querySelector("#skills-paragraphs");
 
-console.log(skillsTitle, allSkills);
-
 skillsTitle.addEventListener("click", () => {
   if (allSkills.style.display === "none") {
     allSkills.style.display = "block";
